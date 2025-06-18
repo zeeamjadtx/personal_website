@@ -1,0 +1,60 @@
+@import url('https://fonts.bunny.net/family/abril-fatface');
+
+
+main > div:hover {
+    background: green;
+  }
+div {
+    color: rgb(5, 71, 40);
+    font-family: "abril-fatface", Garamond;
+  }
+h1{
+    font-family: Helvetica;
+}
+.menu{
+  display: flex;
+}
+.name{
+  font-size: x-large;
+}
+.flex-container {
+   
+    background-color: lavenderblush;
+    display: flex;
+    padding: 0, 0, 0, 100 px;
+    justify-content: flex-start;
+}
+  .flex-container div {
+      background: lavender;
+      position: sticky;
+      height: 100 px;
+      flex: 1;
+      margin: 4px; 
+      flex-basis: 25%;
+     
+  }
+
+.profile-photo {
+    display: block;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+.projects {
+  display: flex;
+  height: 100px;
+  width: 400px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+  .projects div{
+      background-color: rgb(172, 200, 172);
+      flex-basis: 100%;
+  }
+.overflowing {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
